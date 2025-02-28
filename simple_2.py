@@ -70,8 +70,59 @@
 # print(n.split())
 
 ## counting spaces in string
-st = "P r ogram in g"
-print(st.count(" "))
+# st = "P r ogram in g"
+# print(st.count(" "))
+
+## shuffle items in list
+# from random import shuffle
+# lst = ['python','is','easy', 'or','javascripts', 'is', 'easy']
+# shuffle(lst)
+# print(lst)
+
+## create generator to produce first n prime numbers
+# def isprime(num):
+#     for i in range(2,num):
+#         if num%i ==0:
+#             return False
+#     else:
+#         return True
+# def prime_generator(n):
+#     num = 2
+#     while n:
+#         if isprime(num):
+#             yield num
+#             n = n - 1
+#         num = num + 1
+# x = 10
+# it = prime_generator(x)
+# for e in it:
+#     print(e, end=" ")
+
+## implementing variable length arguments
+# def avg(*t):
+#     a = t
+#     print(a[0])
+#     print(type(a))
+#     av = sum(t)/len(t)
+#     return av
+#
+# a = avg(32,5,65,22,87,34,2,57)
+# print(a)
+
+## Implementing kwargs
+
+# def use_it(**kwargs):
+#     print(kwargs)
+#     print(kwargs["a"])
+# use_it(a=2,b = 4, c= 6,d= 8)
+
+
+## Addition using Lambda function
+a = lambda a,b : a+b
+rslt = a(7,2)
+print(rslt)
+
+
 
 
 
