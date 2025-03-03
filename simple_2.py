@@ -118,9 +118,9 @@
 
 
 ## Addition using Lambda function
-a = lambda a,b : a+b
-rslt = a(7,2)
-print(rslt)
+# a = lambda a,b : a+b
+# rslt = a(7,2)
+# print(rslt)
 
 
 
